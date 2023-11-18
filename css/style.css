@@ -1,0 +1,52 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html {
+  border: 2px solid rgb(255, 136, 0);
+  font-size: 2rem;
+  font-family: 'Agbalumo', 'Arial Narrow', sans-serif;
+  background: linear-gradient(lightgreen, darkgreen);
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+header{
+  margin-bottom: 30px;
+  text-align: center;
+  border: 5px solid orange;
+}
+button{
+  font-size: 1.1rem;
+  background-color: rgb(235, 224, 214);
+}
+.section-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 5px solid orange;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+.column{
+  border: 5px solid orange;
+}
+h3{
+  text-decoration: underline;
+}
+#left-column{
+  text-align: center;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
