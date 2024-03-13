@@ -1,5 +1,6 @@
 let deckId = ''
 let winner = true
+const warGameButton = document.querySelector('#warButton')
 fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
 .then(res => res.json()) // parse response as JSON
 .then(data => {
@@ -49,7 +50,9 @@ function drawTwo(){
      
     }else{
       document.querySelector('#results').innerText = 'Time for War'
-       // $('h4:contains('Time for War')').add('button[id="warButton"]');
+      //  document.getElementsByClassName('hidden').toggle('hidden')
+      warGameButton.classList.toggle('hidden')
+
     }
     
     
