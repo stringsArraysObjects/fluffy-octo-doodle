@@ -15,6 +15,7 @@ html {
   font-size: 2rem;
   font-family: 'Agbalumo', 'Arial Narrow', sans-serif;
   background: linear-gradient(lightgreen, darkgreen);
+  color: rgb(20, 80, 6);
 }
 img{
   display: block;
@@ -28,7 +29,7 @@ header{
 }
 button{
   font-size: 1.1rem;
-  background-color: rgb(235, 224, 214);
+  background-color: rgba(4, 130, 4, 0.849);
 }
 .section-container{
   display: flex;
