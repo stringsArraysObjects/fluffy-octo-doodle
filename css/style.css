@@ -10,11 +10,12 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-html {
-  border: 2px solid rgb(255, 136, 0);
+body {
+  /* background: linear-gradient(lightgreen, darkgreen); */
+  background-color:  darkgreen;
+
   font-size: 2rem;
   font-family: 'Agbalumo', 'Arial Narrow', sans-serif;
-  background: linear-gradient(lightgreen, darkgreen);
   color: rgb(20, 80, 6);
 }
 img{
@@ -22,25 +23,25 @@ img{
   margin: 0 auto;
 }
 
-header{
+div{
   margin-bottom: 30px;
   text-align: center;
-  border: 5px solid orange;
 }
 button{
   font-size: 1.1rem;
   background-color: rgba(4, 130, 4, 0.849);
 }
 .section-container{
+  background: linear-gradient(lightgreen, darkgreen);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 5px solid orange;
   padding-left: 20vw;
   padding-right: 20vw;
+  height: 700px;
 }
-.column{
-  border: 5px solid orange;
+h2 {
+  color:lightgreen;
 }
 h3{
   text-decoration: underline;

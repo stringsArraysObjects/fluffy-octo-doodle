@@ -37,16 +37,17 @@ function drawTwo(){
       player1CardCount += 1
       document.querySelector('#cardCountPlayer1').innerText = player1CardCount
       player2CardCount -= 1
-       
+      
       localStorage.setItem('Player1', player1CardCount)
     }else if(player1Val < player2Val){
-      document.querySelector('#results').innerText = 'Player 2 wins the Hand'
+     document.querySelector('#results').innerText = 'Player 2 wins the Hand'
       
       player2CardCount += 1
       document.querySelector('#cardCountPlayer2').innerText = player2CardCount
       player1CardCount -= 1
-
+      
       localStorage.setItem('Player2', player2CardCount)
+      
      
     }else{
       document.querySelector('#results').innerText = 'Time for War'
@@ -105,6 +106,7 @@ document.getElementById('warButton').addEventListener('click', timeForWar)
     
       }
       
+      warGameButton.classList.toggle('hidden')
       
       //  document.querySelector('#cardCountPlayer1').innerText = player1CardCount
       //  document.querySelector('#cardCountPlayer2').innerText = player2CardCount
