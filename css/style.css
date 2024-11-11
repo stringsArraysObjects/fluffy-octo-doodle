@@ -13,7 +13,8 @@
 body {
   /* background: linear-gradient(lightgreen, darkgreen); */
   background-color:  darkgreen;
-
+  /* text-shadow: 3px 3px 3px rgb(101, 89, 89); */
+  text-shadow: 2px 2px 2px  rgb(67, 140, 41);
   font-size: 2rem;
   font-family: 'Agbalumo', 'Arial Narrow', sans-serif;
   color: rgb(20, 80, 6);
@@ -28,8 +29,13 @@ div{
   text-align: center;
 }
 button{
-  font-size: 1.1rem;
+  font-family: 'Agbalumo', 'Arial Narrow', sans-serif;
+  font-size: 1.5rem;
   background-color: rgba(4, 130, 4, 0.849);
+  box-shadow: 2px 2px 2px  rgb(25, 61, 12);
+  color:lightgreen;
+  width: 200px;
+  height: 50px;
 }
 .section-container{
   background: linear-gradient(lightgreen, darkgreen);
@@ -39,6 +45,8 @@ button{
   padding-left: 20vw;
   padding-right: 20vw;
   height: 700px;
+  box-shadow: 5px 5px 5px 5px rgb(39, 38, 38);
+  border-radius: 10%;
 }
 h2 {
   color:lightgreen;
@@ -47,6 +55,8 @@ h3{
   text-decoration: underline;
 }
 #left-column{
+  padding-top: 5%;
+  width: 200px;
   text-align: center;
 }
 /******************************************

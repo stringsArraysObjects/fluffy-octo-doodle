@@ -26,11 +26,13 @@ function drawTwo(){
     console.log(data)
     Number(localStorage.getItem('Player1'))
     Number(localStorage.getItem('Player2'))
-  
+    
     document.querySelector('#player1').src = data.cards[0].image
     document.querySelector('#player2').src = data.cards[1].image
     let player1Val = convertFaceCardsToNum(data.cards[0].value)
     let player2Val = convertFaceCardsToNum(data.cards[1].value)
+    document.querySelector('#cardCountPlayer1').innerText = player1CardCount
+    document.querySelector('#cardCountPlayer2').innerText = player2CardCount
     if(player1Val > player2Val){
       document.querySelector('#results').innerText = 'Player 1 wins the Hand'
 
